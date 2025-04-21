@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body {
+    font-family: sans-serif; 
+    margin: 20px; 
+    background-color: #f8f8f8;
+    color: black; 
+}
+
+h1 {
+    color: rgb(16, 144, 223);
+    text-align: center; 
+    margin-bottom: 20px; 
+    padding-top: 20px;
+}
+
+button {
+    background-color: rgb(16, 144, 223); 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em; 
+    margin-bottom: 15px; 
+}
+
+button:hover {
+    background-color: rgb(16, 68, 223); 
+}
+
+#rate {
+    background-color: rgb(239, 239, 239); 
+    padding: 15px; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+    text-align: center; 
+    font-size: 1.1em; 
+}
+
+a {
+    color: rgb(16, 144, 223);
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
